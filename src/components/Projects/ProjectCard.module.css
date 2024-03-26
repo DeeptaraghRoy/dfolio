@@ -1,0 +1,143 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px; /* Increased border radius for smoother edges */
+  background-color: rgba(112, 146, 190, 0.9); /* Soft blue with transparency */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
+  padding: 18px 24px; /* Reduced padding for a more compact look */
+  max-width: 345px;
+}
+
+.container:hover {
+  box-shadow: 0 12px 18px rgba(0, 0, 0, 0.3); /* Slightly increased shadow on hover */
+}
+
+.image {
+  margin-bottom: 26px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.description {
+  margin-top: 6px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.skills {
+  width: 100%;
+  margin-top: 14px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
+}
+
+.skill {
+  font-size: 25px;
+  font-weight: 400;
+  border-radius: 100px;
+  background: var(--color-dark);
+  padding: 2px 22px;
+  color: #f4f4f4;
+}
+
+.links {
+  width: 100%;
+  margin-top: 26px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 30px;
+  font-weight: 600;
+  border-radius: 100px;
+  background: var(--color-primary);
+  padding: 1px 22px;
+  box-shadow: 0 7px 4px rgba(0, 0, 0, 0.5);
+}
+
+.link:hover {
+  background: #203088;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+
+  .image {
+    width: 300px;
+    margin-bottom: 7px;
+    padding-right: 15px;
+  }
+
+  .title {
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .links {
+    width: 100%;
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .link {
+    font-size: 12px;
+    padding: 1px 22px;
+  }
+
+  .skill {
+    font-size: 12px;
+  }
+}
+
+.descriptionContainer {
+  max-height: 70px; /* Adjust this value according to your preference */
+  overflow-y: auto;
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .description {
+    display: none;
+  }
+
+  .links {
+    width: 100%;
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .link {
+    font-size: 12px;
+    padding: 1px 22px;
+  }
+
+  .image {
+    max-width: 107%;
+  }
+
+  .skill {
+    font-size: 12px;
+  }
+}

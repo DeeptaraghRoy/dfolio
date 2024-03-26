@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Earth Chronicle",
+    "imageSrc": "projects/earthchronicle.png",
+    "description": "Event Tracker & Management Single Page Web App Platform that can add any kind of events that took place on earth in a list. We can also edit delete and view those events with the sign in and sign up facility.",
+    "skills": ["React", "HTML", "CSS", "React Router"],
+    "demo": "https://earthchronicle.netlify.app/",
+    "source": "https://github.com/DeeptaraghRoy/EarthChronicle_Frontend"
+  },
+  {
+    "title": "Redux Cart",
+    "imageSrc": "projects/deepreduxcart.png",
+    "description": "A simple cart functionality implemented using firestore react and redux-toolkit",
+    "skills": ["React", "HTML", "CSS", "Redux-toolkit"],
+    "demo": "https://deep-reduxcart.netlify.app/",
+    "source": "https://github.com/DeeptaraghRoy/ReduxCart"
+  },
+  {
+    "title": "Tic-Tac-Funk",
+    "imageSrc": "projects/tictacfunk.png",
+    "description": "Simple tic-tac-toe game for practice",
+    "skills": ["React", "HTML", "CSS"],
+    "demo": "https://tic-tac-funk.netlify.app/",
+    "source": "https://github.com/DeeptaraghRoy/tic-tac-toe-battle"
+  }
+]

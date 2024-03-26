@@ -1,0 +1,96 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  background-color: rgba(228, 228, 228, 0.9); /* Light gray with transparency */
+  border-radius: 25px; /* Slightly rounded corners */
+  padding: 50px; /* Reduced padding for a more compact look */
+  margin-top: 80px; /* Adjusted margin-top for better alignment */
+  z-index: 1;
+  margin-left: 5%; /* Adjusted margin for better centering */
+  margin-right: 5%; /* Adjusted margin for better centering */
+}
+
+.title {
+  color: black;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+
+.aboutImage {
+  width: 35%;
+}
+
+.aboutItems {
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.aboutItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 15px; /* Slightly reduced border radius */
+  list-style: none;
+  padding: 20px; /* Reduced padding for a more compact look */
+  background-color: rgba(238, 238, 238, 0.9); /* Light gray with transparency */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  transition: background-color 0.4s, box-shadow 0.4s; /* Added transition for background color and box shadow */
+  color: black;
+}
+
+.aboutItem:hover {
+  background-color: rgba(220, 220, 220, 0.9); /* Lighter gray on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly increased shadow on hover */
+  background-size: 100% 100%;
+}
+
+.aboutItem h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.aboutItem p {
+  font-size: 25px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .title {
+    color: var(--color-text);
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .aboutImage {
+    display: none;
+  }
+
+  .aboutItems {
+    margin-top: 29px;
+  }
+
+  .aboutItem {
+    padding: 20px;
+  }
+}

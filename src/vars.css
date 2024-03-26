@@ -1,0 +1,11 @@
+:root {
+  /* Colours */
+  --color-text: white; /* Dark gray for text */
+  --color-primary: #6042ca; /* Soft blue as primary */
+  --color-secondary: #6fa7d4; /* Light blue as secondary */
+  --color-dark: #1e1e1e; /* Dark gray for backgrounds */
+  --color-bg: black; /* Light gray for main background */
+
+  /* Fonts */
+  --font-roboto: "Roboto"; /* Roboto as primary font */
+}

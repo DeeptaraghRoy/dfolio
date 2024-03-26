@@ -1,0 +1,16 @@
+[
+  {
+    "role": "Analyst/Software Engineer A4",
+    "organisation": "Capgemini",
+    "startDate": "20/09/2022",
+    "endDate": "27/09/2023",
+    "experiences": [
+      "Was core Analyst/Software Engineer at ETAP Lab, C&CA Solutions COE of Capgemini Technology Services India Ltd",
+      "Contributed for the development of Unified Developers' Toolset (UDT) while providing hands-on support and engaging in demonstrations",
+      "Researched and implemented AI-powered tools to create POCs",
+      "Conducted pilot programs for Generative AI and UDT implementation to showcase transformative potentials",
+      "Was trained to be a Full Stack Developer (React, Spring Boot, JAVA EE) | Microservices & Polyglot Architecture Practitioner | MongoDB, PostgreSQL | Innovator using Generative AI"
+    ],
+    "imageSrc": "history/capgemini.png"
+  }
+]

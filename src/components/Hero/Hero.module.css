@@ -1,0 +1,124 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 49px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--color-text);
+  z-index: 1;
+}
+
+.title {
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 33px;
+  font-family: var(--font-roboto);
+  color: rgba(217, 176, 122, 1);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.description {
+  font-size: 30px;
+  font-family: var(--font-roboto);
+  margin-bottom: 52px;
+  color: white;
+  font-weight: bolder;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.contactBtn {
+  text-decoration: none;
+  background-color: #a4c4b2; /* Soft green background */
+  color: #333333; /* Dark gray text */
+  border-radius: 100px;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 17px 26px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.7);
+}
+
+.contactBtn:hover {
+  background-color: #68c590; /* Soft green background */
+}
+
+.heroImg {
+  width: 50%;
+  z-index: 1;
+
+  animation: floating 1s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 20px);
+  }
+  100% {
+    transform: translate(0, 0px);
+  }
+}
+
+.topBlur {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  min-height: 350px; /* Corrected min-height */
+  top: -128px;
+  left: -10vw;
+  border-radius: 50%; /* Circular shape */
+  background: rgba(179, 205, 224, 0.7); /* Soft blue with transparency */
+  filter: blur(100px);
+  z-index: 0;
+}
+
+.bottomBlur {
+  position: absolute;
+  width: 70vw;
+  height: 50vw;
+  min-width: 250px; /* Corrected min-height */
+  top: 246px;
+  right: -25vw;
+  border-radius: 50%; /* Circular shape */
+  background: rgba(179, 205, 224, 0.7); /* Soft blue with transparency */
+  filter: blur(100px);
+  z-index: 0;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .content {
+    align-items: center;
+  }
+
+  .title {
+    font-size: 22px;
+    font-weight: 900;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 33px;
+  }
+
+  .description {
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: var(--font-roboto);
+    margin-bottom: 52px;
+    text-align: center;
+  }
+}

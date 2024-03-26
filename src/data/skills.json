@@ -1,0 +1,26 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "Vanilla JS",
+    "imageSrc": "skills/js.png"
+  },
+  {
+    "title": "React JS",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Redux toolkit",
+    "imageSrc": "skills/reduxtoolkit.png"
+  },
+  {
+    "title": "React Router",
+    "imageSrc": "skills/reactrouter.png"
+  }
+]
