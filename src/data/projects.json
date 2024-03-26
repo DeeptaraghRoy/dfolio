@@ -2,7 +2,7 @@
   {
     "title": "Earth Chronicle",
     "imageSrc": "projects/earthchronicle.png",
-    "description": "Event Tracker & Management Single Page Web App Platform that can add any kind of events that took place on earth in a list. We can also edit delete and view those events with the sign in and sign up facility.",
+    "description": " (test-user: test@test.com pw: 1234567) Event Tracker & Management Single Page Web App Platform that can add any kind of events that took place on earth in a list. We can also edit delete and view those events with the sign in and sign up facility.",
     "skills": ["React", "HTML", "CSS", "React Router"],
     "demo": "https://earthchronicle.netlify.app/",
     "source": "https://github.com/DeeptaraghRoy/EarthChronicle_Frontend"
