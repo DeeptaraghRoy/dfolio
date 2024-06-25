@@ -16,6 +16,14 @@
     "source": "https://github.com/DeeptaraghRoy/ReduxCart"
   },
   {
+    "title": "Chatbot Flow Builder",
+    "imageSrc": "projects/reactflow.png",
+    "description": "This is simple Chatbot flow builder app, built using React Flow library and was given to me as a hiring Frontend task by BiteSpeed. A chatbot flow is built by connecting multiple messages together to decide the order of execution.",
+    "skills": ["React", "HTML", "CSS", "React Flow"],
+    "demo": "https://chatbotflowbuilder-bitespeed-task.netlify.app/",
+    "source": "https://github.com/DeeptaraghRoy/Chatbot-Flow-Builder---BiteSpeed-Challenge"
+  },
+  {
     "title": "Tic-Tac-Funk",
     "imageSrc": "projects/tictacfunk.png",
     "description": "Simple tic-tac-toe game for practice",

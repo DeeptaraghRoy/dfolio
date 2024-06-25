@@ -22,5 +22,9 @@
   {
     "title": "React Router",
     "imageSrc": "skills/reactrouter.png"
+  },
+  {
+    "title": "React Flow",
+    "imageSrc": "skills/reactflow.png"
   }
 ]
