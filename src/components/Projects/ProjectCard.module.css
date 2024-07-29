@@ -2,12 +2,15 @@
 
 .container {
   display: flex;
+  height: 450px;
   flex-direction: column;
   border-radius: 15px; /* Increased border radius for smoother edges */
   background-color: rgba(112, 146, 190, 0.9); /* Soft blue with transparency */
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
   padding: 18px 24px; /* Reduced padding for a more compact look */
   max-width: 345px;
+  justify-content: center;
+  position: relative;
 }
 
 .container:hover {
@@ -15,10 +18,14 @@
 }
 
 .image {
+  position: absolute;
+  top: 18px;
   margin-bottom: 26px;
+  border-radius: 15px;
 }
 
 .title {
+  margin-top: 100px;
   font-size: 25px;
   font-weight: 700;
 }
@@ -27,6 +34,7 @@
   margin-top: 6px;
   font-size: 25px;
   font-weight: 400;
+  justify-content: center;
 }
 
 .skills {
@@ -37,10 +45,11 @@
   flex-wrap: wrap;
   gap: 6px;
   list-style: none;
+  justify-content: center;
 }
 
 .skill {
-  font-size: 25px;
+  font-size: 12px;
   font-weight: 400;
   border-radius: 100px;
   background: var(--color-dark);
@@ -49,6 +58,9 @@
 }
 
 .links {
+  position: absolute;
+  bottom: 18px;
+  left: 0px;
   width: 100%;
   margin-top: 26px;
   display: flex;
@@ -75,12 +87,14 @@
     display: flex;
     flex-direction: row;
     max-width: 100%;
+    max-height: 370px;
+    position: relative;
   }
 
   .image {
-    width: 300px;
+    margin-top: 7px;
     margin-bottom: 7px;
-    padding-right: 15px;
+    width: 239px;
   }
 
   .title {

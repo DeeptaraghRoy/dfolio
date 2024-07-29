@@ -24,6 +24,30 @@
     "source": "https://github.com/DeeptaraghRoy/Chatbot-Flow-Builder---BiteSpeed-Challenge"
   },
   {
+    "title": "E-Commerce",
+    "imageSrc": "projects/moonshotecomm.png",
+    "description": "This project is a simple Sign-up and Login flow implementation of an E-commerce website bootstrapped with T3 Stack. It was given to me by Roc8 Careers as a Roc8 Moonshot, that tests my ability to BUILD.",
+    "skills": [
+      "T3 Stack",
+      "NextJS 14",
+      "Next App Router",
+      "Tailwind CSS",
+      "TypeScript",
+      "Prisma",
+      "Neontech"
+    ],
+    "demo": "https://deepecomm.vercel.app/",
+    "source": "https://github.com/DeeptaraghRoy/roc8careers-moonshot-ecomm"
+  },
+  {
+    "title": "Conway's Game Of Life",
+    "imageSrc": "projects/cgol.png",
+    "description": "This project is a simple Frontend application bootstrapped with T3 Stack. It demonstrates the implementation of John Conway's Game of Life. It was given to me by Roc8 Careers as a Roc8 Moonshot, that tests my ability to BUILD.",
+    "skills": ["T3 Stack", "NextJS 14", "Tailwind CSS", "TypeScript"],
+    "demo": "https://deepcgol.vercel.app/",
+    "source": "https://github.com/DeeptaraghRoy/roc8careers-conway-game-of-life"
+  },
+  {
     "title": "Tic-Tac-Funk",
     "imageSrc": "projects/tictacfunk.png",
     "description": "Simple tic-tac-toe game for practice",
